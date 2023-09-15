@@ -1,5 +1,4 @@
 import React from 'react'
-// import i5VideoBg from '../assets/newi5bmwvideopromo.mp4'
 import i5VideoBg from '../assets/bmwi5video02.mp4'
 import bmwlogo from '../assets/bmwmainlogo.png'
 import bmwmlogo from '../assets/bmwmlogo.png'

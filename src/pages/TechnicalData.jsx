@@ -5,6 +5,8 @@ import Modal from '../components/Modal';
 
 function TechnicalData() {
   return (
+
+    // important technical specs about the car
     <section id='techSection' className=' flex items-center justify-center h-full'>
       <div className=''>
         <div className='flex flex-col items-center justify-center'>
@@ -36,6 +38,7 @@ function TechnicalData() {
         </div>
 
         <div className='flex flex-col items-center justify-center'>
+          {/* insert modal. once the user clicks on modal it will display for information about the car */}
           <Modal />
           <div className='flex flex-col justify-center gap-4 pb-6 pt-2 px-4 md:w-4/5'>
         <p className='font-sans text-gray-700'>Performance metrics as reported by BMW AG.</p>

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* This CSS is global styling which will effect the entire page.
+ Inside each individual file added TailWindCSS for more percise styling */
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+
+  /* Global styling for every page. all pages are stacked in a Column, centered,
+  and have a 90% max width of the page */
+section {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+max-width: 90%;
+margin: 0 auto; /* Horizontal centering */
+flex-direction: column; /* If you want to stack items vertically */
+}
+
+/* Font I imported inside the 'index.html' page thats available to use from Google Fonts */
+/* 
+font-family: 'Oswald', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Roboto', sans-serif;
+ */
